@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="proses.php" method="GET | POST">
+        <fieldset style="background-color: azure;">
+            <h1 align="center">Pendaftaran Mahasiswa Baru</h1>
+         <head>
+             <title>Registrasi</title>
+        </head>
+            <hr>
+            <h3>Data Diri</h3>
+            <hr/>
+        <div>
+            <label>Nama Lengkap</label>
+            <div>
+                <input type="text" name="nama" value="" size="30" />
+            </div>
+        </div>
+        <div>
+            <label>Nomor Identitas(NIK)</label>
+            <div>
+            <input type="text" name="NIK" value="" size="30" />
+            </div>
+        </div>
+        <div>
+            <label>Jenis Kelamin</label>
+           <div>
+               <input type="radio" name="jk" value="L" checked /> Laki-Laki
+               <input type="radio" name="jk" value="P" checked /> Perempuan
+           </div> 
+        </div>
+        <div>
+            <label>Tempat Lahir</label>
+            <div>
+            <input type="text" name="tempat" />
+            </div>
+            <label for="start_date">Tanggal Lahir</label>
+            <div>
+            <input type="date" name="Tanggal_Lahir" id="Tanggal_Lahir" />
+            </select>
+            </div>
+        </div>
+        <div>
+            <label>Alamat Rumah</label>
+            <div>
+            <input type="text" name="alamat" size="50"/>
+            </div>
+        </div>
+            <label>Domisili</label>
+            <div>
+            <input type="text" name="domisili" size="50" />
+            </div>
+        </div>
+        <div>
+            <label>Asal Sekolah</label>
+            <div>
+            <input type="text name" name="Sekolah" />
+            </div>
+        </div>
+        <div>
+            <label>Status</label>
+            <div>
+            <select name="status">
+                <option value="">---pilih---</option>
+                <option value="Belum Menikah">Belum Menikah</option>
+                <option value="Sudah Menikah">Sudah Menikah</option>
+                <option value="Karyawan">Karyawan</option>
+            </select>
+            </div>
+        </div>
+        <div>
+            <label>No.Handphone</label>
+            <div>
+            <input type="nomor" name="nomor" />
+            </div>
+        </div>
+        <div>
+            <label>E-mail</label>
+            <div>
+            <input type="email" name="email" />
+            </div>
+        </div>
+        <hr>
+        <h3>Data Orang tua</h3>
+        <hr/>
+        <h4>Data Ayah</h4>
+        <div>
+            <label> Nama Ayah Kandung</label> 
+            <div>
+            <input type="text" name="nama ayah" />
+            </div>
+        </div>
+            </div>
+        <div>
+            <label>Nomor Identitas(NIK)</label>
+            <div>
+            <input type="nomor" name="nomor" />
+            </div>
+        </div>
+        <div>
+            <label>Pekerjaan Ayah</label> <label></label>
+            <div>
+            <input type="text" name="pekerjaan ayah" />
+            </div>
+        </div>
+        <div>
+            <label>Gaji</label>
+            <div>
+            <select name="gaji">
+                <option value="">--pilih---</option>
+                <option value="Rp 0 - Rp 500.000">Rp 0 - Rp 500.000</option>
+                <option value="Rp 500.000 - Rp 2.000.000">Rp 500.000 - Rp 2.000.000</option>
+                <option value="Rp 2.000.000 - Rp 5.000.000">Rp 2.000.000 - Rp 5.000.000</option>
+                <option value="Rp 5.000.000 - Rp 7.000.000">Rp 5.000.000 - Rp 7.000.000</option>
+                <option value="Rp 7.000.000 - Rp 10.000.000">Rp 7.000.000 - Rp 10.000.000</option>
+                <option value=">Rp 10.000.000">>Rp 10.000.000</option>
+            </select>
+            </div>
+        </div>
+        <h4>Data Ibu</h4>
+        <div>
+            <label> Nama Ibu Kandung</label> 
+            <div>
+            <input type="text" name="nama ibu" />
+            </div>
+        </div>
+            </div>
+        <div>
+            <label>Nomor Identitas(NIK)</label>
+            <div>
+            <input type="nomor" name="nomor" />
+            </div>
+        </div>
+        <div>
+            <label>Pekerjaan Ibu</label> <label></label>
+            <div>
+            <input type="text" name="pekerjaan ibu" />
+            </div>
+        </div>
+        <div>
+            <label>Gaji</label>
+            <div>
+            <select name="gaji">
+                <option value="">--pilih---</option>
+                <option value="Rp 0 - Rp 500.000">Rp 0 - Rp 500.000</option>
+                <option value="Rp 500.000 - Rp 2.000.000">Rp 500.000 - Rp 2.000.000</option>
+                <option value="Rp 2.000.000 - Rp 5.000.000">Rp 2.000.000 - Rp 5.000.000</option>
+                <option value="Rp 5.000.000 - Rp 7.000.000">Rp 5.000.000 - Rp 7.000.000</option>
+                <option value="Rp 7.000.000 - Rp 10.000.000">Rp 7.000.000 - Rp 10.000.000</option>
+                <option value=">Rp 10.000.000">>Rp 10.000.000</option>
+            </select>
+            </div>
+        </div>
+        <hr>
+        <h3> Pilihan Program Studi</h3>
+        <hr/>
+        <div>
+            <label>Pilih Program Studi</label>
+            <select name="program studi">
+                <option value="">---pilih---</option>
+                <option value="Sistem Informasi">Sistem Informasi</option>
+                <option value="Teknik Informatika">Teknik Informatika</option>
+                <option value="Teknik Elektro">Teknik Elekro</option>
+                <option value="Teknik Kimia">Teknik Kimia</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="submit" value="simpan" name="proses" />
+        </div>
+        </form>
+    </body>
+</html>
